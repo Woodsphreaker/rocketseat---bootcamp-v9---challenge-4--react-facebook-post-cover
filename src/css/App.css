@@ -1,0 +1,133 @@
+body {
+  background-color: #ccc;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  width: 100%;
+  height: 64px;
+  background-color: #3b5998;
+  margin-bottom: 20px;
+}
+
+.header .inner {
+  width: 70%;
+  height: 100%;
+  margin: auto;
+}
+
+.header .inner .company-logo {
+  float: left;
+}
+
+.header .inner .company-logo img {
+  max-width: 160px;
+}
+
+.header .inner .user-profile {
+  float: right;
+  height: 64px;
+  display: flex;
+  align-items: center;
+}
+
+.header .inner .user-profile .name {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.header .inner .user-profile .icon {
+  border-radius: 50px;
+  background-color: #fff;
+  padding: 10px;
+}
+
+.header .inner .user-profile .icon img {
+  width: 20px;
+}
+
+.post-list {
+  width: 60%;
+  height: auto;
+  margin: auto;
+}
+
+.post {
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  padding: 30px 40px 30px 40px;
+}
+
+.post .avatar {
+  margin-top: 0px;
+}
+
+.post .avatar img {
+  border-radius: 100px;
+  height: 60px;
+}
+
+.post .author {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.post .author span {
+  font-weight: normal;
+  font-size: 12px;
+  display: block;
+  color: #ccc;
+  line-height: 25px;
+}
+
+.post .grid {
+  display: grid;
+  grid-template-columns: 80px auto;
+}
+
+.post .content {
+  margin: 20px 0 0 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.post hr {
+  border-top: #ccc;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.comment {
+  display: grid;
+  grid-template-columns: 80px auto;
+  margin-bottom: 10px;
+}
+
+.comment .content {
+  background-color: #eaeaea;
+  border-radius: 10px;
+  padding: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+.comment .content span {
+  font-weight: bold;
+}
+
+.comment .avatar {
+  margin-top: 18px;
+}
+
+.comment .avatar img {
+  border-radius: 100px;
+  height: 60px;
+}
