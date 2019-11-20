@@ -38,7 +38,7 @@ As informações contidas na interface são **estáticas** e não precisam refle
 
 ### Tela da aplicação
 
-![Facebook](.github/facebook.png)
+<img src="https://github.com/Rocketseat/bootcamp-gostack-desafio-04/blob/master/.github/components.png">
 
 ## :memo: Licença
 
